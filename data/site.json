@@ -1,0 +1,18 @@
+{
+    "site": {
+        "html": {
+            "lang": "ru",
+            "base": "http://site.com",
+            "meta": {
+                "charset": "utf-8",
+                "author": "",
+                "copyright": "",
+                "imagetoolbar": "no",
+                "generator": "",
+                "robots": "index,follow",
+                "icon": "/favicon.ico"
+            }
+        },
+        "theme": "default"
+    }
+}
