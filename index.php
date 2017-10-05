@@ -9,7 +9,7 @@ ini_set('display_errors', 0);
 // Directory separator может отличатся от ОС
 require_once inc . DIRECTORY_SEPARATOR . 'Site.php';
 
-$Site =& new Site;
+$Site = new Site;
 
 $Site;
 
