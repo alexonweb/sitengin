@@ -87,7 +87,7 @@ class Site
     private function menu()
     {
 
-        $menujsoncontents = file_get_contents("data/menu.json");
+        $menujsoncontents = file_get_contents("data" . DIRECTORY_SEPARATOR  . "menu.json");
 
         $menuobject = json_decode($menujsoncontents);
 
