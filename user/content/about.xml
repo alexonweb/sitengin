@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <template>index</template>
+    <html>
+        <head>
+            <title><![CDATA[About]]></title>
+            <meta>
+                <decription></decription>
+                <keywords></keywords>
+            </meta>
+        </head>
+    </html>
+    <content><![CDATA[
+
+<h1>About page</h1>
+
+
+    ]]></content>
+</page>

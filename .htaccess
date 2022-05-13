@@ -1,15 +1,9 @@
-# Кодировка по умолчанию
 AddDefaultCharset utf-8
 
 <IfModule mod_rewrite.c>
-
 	RewriteEngine On
-
-	# Отпавляем запросы на скрипт index.php, 
-	# в случае если файл и директория физически не существуют
 	RewriteCond %{REQUEST_URI} !^/index\.php
 	RewriteCond %{REQUEST_FILENAME} !-f
 	RewriteCond %{REQUEST_FILENAME} !-d
 	RewriteRule .* index.php [L]
-
 </IfModule>

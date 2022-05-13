@@ -1,5 +1,5 @@
 <header>
     <nav>
-        <? $this->menu() ?>
+        <?php echo $this->menu() ?>
     </nav>
 </header>

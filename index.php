@@ -1,15 +1,20 @@
 <?php
+/**
+ * Sitengin
+ * 
+ * Simple file-flat content managmet system.
+ * 
+ * Version: 0.2 Alpha
+ * Author: Alexander Dalle
+ * Source: https://github.com/alexonweb/sitengin
+ * 
+ * Documentation in ./doc directory
+ * 
+ */
 
-// Отключаем ошибки
-error_reporting(0);
-ini_set('display_errors', 0);
+require 'src/Site/Site.php';
 
-
-// Подгружаем class Site
-// Directory separator может отличатся от ОС
-require_once inc . DIRECTORY_SEPARATOR . 'Site.php';
-
-$Site = new Site;
+$Site = new Sitengin\Site();
 
 $Site;
 

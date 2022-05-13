@@ -1,9 +1,7 @@
 <!DOCTYPE html>
-<html lang="<?=$_site->html->lang?>">
+<html lang="<?php echo $_site->html->lang ?>">
 <head>
-    <?
-    include_once "inc/head.php";
-    ?>
+    <?php include 'inc/head.php'; ?>
 </head>
 
 <body>
@@ -12,7 +10,7 @@
 
 <article>
 
-<?=$_page->content?>
+<?php echo $_page->content ?>
 
 </article>
 

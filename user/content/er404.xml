@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <template>er404</template>
+    <html>
+        <head>
+            <title>Page not found</title> 
+            <meta>
+                <decription></decription>
+                <keywords></keywords>
+            </meta>
+        </head>
+    </html>
+    <content><![CDATA[
+
+<h1>Error 404</h1>
+<p>Page not found!</p>
+
+    ]]></content>
+
+</page>

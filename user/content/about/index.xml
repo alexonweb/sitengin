@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<page>
+    <template>index</template>
+    <html>
+        <head>
+            <title><![CDATA[ about ]]></title>
+            <meta>
+                <decription></decription>
+                <keywords></keywords>
+            </meta>
+        </head>
+    </html>
+    <content><![CDATA[
+
+second lavel /about/ example
+
+    ]]></content>
+</page>
