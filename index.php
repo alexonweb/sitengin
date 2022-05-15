@@ -8,8 +8,6 @@
  * Author: Alexander Dalle
  * Source: https://github.com/alexonweb/sitengin
  * 
- * Documentation in ./doc directory
- * 
  */
 
 require 'src/Site/Site.php';
