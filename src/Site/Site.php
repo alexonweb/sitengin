@@ -31,7 +31,7 @@ class Site
 
         $_page = 'user/content/' . $this->uri() . '.xml'; // quasi-global constant
 
-        if ( file_exists($_page)) {
+        if (file_exists($_page)) {
 
             $_page = simplexml_load_file($_page);
 
@@ -63,7 +63,7 @@ class Site
 
             return 'index';
 
-        } elseif ( substr($uri, -1) == '/' ) {
+        } elseif (substr($uri, -1) == '/') {
 
             return $uri . 'index';
 
@@ -84,7 +84,7 @@ class Site
 
         $htmlmenu = '<ul>';
 
-        foreach ( $this->menu as $slug => $title ) {
+        foreach ($this->menu as $slug => $title) {
 
             $current = strpos( $this->uri() , $slug );
 
